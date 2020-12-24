@@ -17,6 +17,11 @@ import java.util.stream.Collectors;
 public class SimpleTest {
 
     @Test
+    public void test4(){
+
+    }
+
+    @Test
     public void test3() throws IOException {
         List<Apple> appleList = new ArrayList<>();
      /*   Apple apple = new Apple();
