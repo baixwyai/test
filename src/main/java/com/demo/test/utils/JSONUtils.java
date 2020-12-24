@@ -21,10 +21,6 @@ public class JSONUtils {
     public JSONUtils() {
     }
 
-    public void ceshi(){
-        System.out.println("ceshi");
-    }
-
     public static <T> T stringToObject(String jsonString, Class<T> clazz) {
         try {
             return objectMapper.readValue(jsonString, clazz);
